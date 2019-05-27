@@ -1,6 +1,7 @@
 Vault Java Driver
 =================
-A zero-dependency Java client for the [Vault](https://www.vaultproject.io/) secrets management solution from
+
+This is a fork of  the zero-dependency Java client for the [Vault](https://www.vaultproject.io/) secrets management solution from
 HashiCorp.
 
 This driver strives to implement Vault's full HTTP API, along with supporting functionality such as automatic
@@ -31,16 +32,16 @@ The driver is available from Maven Central, for all modern Java build systems.
 Gradle:
 ```
 dependencies {
-    compile('com.bettercloud:vault-java-driver:4.0.0')
+    compile('se.tink:vault-java-driver:4.0.0-tink')
 }
 ```
 
 Maven:
 ```
 <dependency>
-    <groupId>com.bettercloud</groupId>
+    <groupId>se-tink</groupId>
     <artifactId>vault-java-driver</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.0-tink</version>
 </dependency>
 ```
 

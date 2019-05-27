@@ -2,9 +2,9 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'signing'
 
-group 'com.bettercloud'
+group 'se.tink'
 archivesBaseName = 'vault-java-driver'
-version '4.0.0'
+version '4.0.0-tink'
 ext.isReleaseVersion = !version.endsWith('SNAPSHOT')
 
 compileJava {

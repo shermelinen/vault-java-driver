@@ -4,7 +4,7 @@ apply plugin: 'signing'
 
 group 'se.tink'
 archivesBaseName = 'vault-java-driver'
-version '4.0.0-tink'
+version '4.0.0-tink-SNAPSHOT'
 ext.isReleaseVersion = !version.endsWith('SNAPSHOT')
 
 compileJava {

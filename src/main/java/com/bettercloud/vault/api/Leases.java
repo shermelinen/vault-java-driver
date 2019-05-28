@@ -234,7 +234,7 @@ public class Leases {
                         .add("increment", increment)
                         .toString();
                 final RestResponse restResponse = new Rest()//NOPMD
-                        .url(config.getAddress() + "/v1/sys/renew/")
+                        .url(config.getAddress() + "/v1/sys/leases/renew")
                         .header("X-Vault-Token", config.getToken())
                         .optionalHeader("X-Vault-Namespace", this.nameSpace)
                         .body(increment < 0 ? null : requestJson.getBytes(StandardCharsets.UTF_8))
